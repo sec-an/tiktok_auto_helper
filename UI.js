@@ -160,7 +160,7 @@ ui.tiktok_save.click(function () {
 // 重置天天向上pro脚本设置
 ui.tiktok_reset.click(function () {
     TIKTOK_CONFIG.put("tiktok_like_count", "100");
-    ui.ttxs_pro_watchdog.setText(TIKTOK_CONFIG.get("tiktok_like_count"));
+    ui.tiktok_like_count.setText(TIKTOK_CONFIG.get("tiktok_like_count"));
     toastLog("配置恢复默认！");
 });
 
