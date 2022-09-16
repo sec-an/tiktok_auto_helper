@@ -81,8 +81,8 @@ var thread = null;
 Initialize();
 
 // 版本更新检查
-var apkurl = "https://ghproxy.com/https://github.com/sec-an/tiktok_auto_helper/releases/download/v1.0.0/v1.0.0.apk";
-var latest_version = "1.0.0";
+var apkurl = "https://ghproxy.com/https://github.com/sec-an/tiktok_auto_helper/releases/download/v1.0.1/v1.0.1.apk";
+var latest_version = "1.0.1";
 if (GLOBAL_CONFIG.get("NO_UPDATE", 0) && (app.versionName != latest_version)) {
     ui.update.visibility = 0;
     ui.update.setText("点击更新至最新版v" + latest_version);
