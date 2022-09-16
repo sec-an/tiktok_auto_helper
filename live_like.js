@@ -1,6 +1,8 @@
 console.show(true);
 
 setScreenMetrics(1080, 1920);
+sleep(1000);
+console.setPosition(device.width / 3, device.height / 5);
 
 app.launch("com.ss.android.ugc.aweme");
 console.log("正在打开抖音...");
