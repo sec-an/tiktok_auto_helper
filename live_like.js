@@ -1,5 +1,5 @@
 // 读取自定义配置
-var TTXS_PRO_CONFIG = storages.create("TIKTOK_CONFIG");
+var TIKTOK_CONFIG = storages.create("TIKTOK_CONFIG");
 var like_count = TIKTOK_CONFIG.get("like_count", "100");
 
 like_count = parseInt(like_count);
