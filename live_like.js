@@ -8,8 +8,7 @@ setScreenMetrics(1080, 1920);
 
 app.launch("com.ss.android.ugc.aweme");
 
-// waitForPackage("com.ss.android.ugc.aweme");
-sleep(5000);
+waitForPackage("com.ss.android.ugc.aweme");
 
 for (var i = 0; i < like_count; i++) {
     press(random(400, 700), random(700, 800), 1);
